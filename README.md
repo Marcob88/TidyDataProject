@@ -7,18 +7,18 @@ The dataset being used, as well as a full description is available at the websit
 
 # How the R script in "run_analysis.R" work and how they are connected
 
-0.        Create a file directory named "dataset.zip" wherein the dataset is downloaded and unzipped;
+0. Create a file directory named "dataset.zip" wherein the dataset is downloaded and unzipped;
 
-1.1/1.2   Load both the training and test datasets
-1.3       Load the activity and feature info
-1.4       Make use of descriptive activity names to name the activities in the data set
-1.5       Merges the two datasets (training and test sets) to create one data set "setAllinOne"
+1.Load both the training and test datasets;
+  Load the activity and feature info;
+  Make use of descriptive activity names to name the activities in the data set;
+  Merges the two datasets (training and test sets) to create one data set "setAllinOne";
 
-2.1 /2.2  Create a vector to define ID, meand and standard deviation
-2.3       Take a subset from "setAllinOne" specified just by mean and standard deviation
+2.Create a vector to define ID, meand and standard deviation;
+  Take a subset from "setAllinOne" specified just by mean and standard deviation;
 
-3/4       Names the activities in the subset with descriptive activity names
+3/4.Names the activities in the subset with descriptive activity names;
 
-5         Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+5. Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair;
 
 The end result is shown in the file secTidySet.txt.
