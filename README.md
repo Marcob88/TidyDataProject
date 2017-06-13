@@ -5,7 +5,7 @@
 
 * The dataset being used, as well as a full description is available at the website : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# How the R script `run_analysis.R` work and how scripts are connected
+## How the R script `run_analysis.R` work and how scripts are connected
 
 0. Create a file directory named `dataset.zip` wherein the dataset is downloaded and unzipped;
 
